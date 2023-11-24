@@ -1,7 +1,6 @@
 [![Maven Central](https://img.shields.io/maven-central/v/org.aposin.licensescout/licensescout-maven-plugin.svg?label=Maven%20Central)](https://maven-badges.herokuapp.com/maven-central/org.aposin.licensescout/licensescout-maven-plugin)
 [![Build Status](https://travis-ci.org/aposin/LicenseScout.svg?branch=master)](https://travis-ci.org/aposin/LicenseScout)
 [![codecov](https://codecov.io/gh/aposin/LicenseScout/branch/master/graph/badge.svg)](https://codecov.io/gh/aposin/LicenseScout)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/68b073442bd540f4a0a0ca1b33e5181b)](https://www.codacy.com/app/aposin-bot/LicenseScout?utm_source=github.com&utm_medium=referral&utm_content=aposin/LicenseScout&utm_campaign=Badge_Grade)
 [![Known Vulnerabilities (Core)](https://snyk.io/test/github/aposin/LicenseScout/badge.svg?targetFile=licensescout-core%2Fpom.xml)](https://snyk.io/test/github/aposin/LicenseScout?targetFile=licensescout-core%2Fpom.xml)
 [![Known Vulnerabilities (Maven Plug-in)](https://snyk.io/test/github/aposin/LicenseScout/badge.svg?targetFile=licensescout-maven-plugin%2Fpom.xml)](https://snyk.io/test/github/aposin/LicenseScout?targetFile=licensescout-maven-plugin%2Fpom.xml)
 ![GitHub top language](https://img.shields.io/github/languages/top/aposin/LicenseScout.svg)
