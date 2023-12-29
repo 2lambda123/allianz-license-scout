@@ -98,7 +98,7 @@
 		<doxia-decoration-model.version>1.9.1</doxia-decoration-model.version>
 		<jaxb-api.version>2.3.2</jaxb-api.version>
 		<junit.version>4.13.1</junit.version>
-		<json.version>20190722</json.version>
+		<json.version>20231013</json.version>
 		<maven-core.version>3.8.1</maven-core.version>
 		<maven-model.version>3.6.0</maven-model.version>
 		<maven-plugin-annotations.version>3.6.0</maven-plugin-annotations.version>
