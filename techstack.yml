@@ -1,0 +1,409 @@
+repo_name: 2lambda123/allianz-license-scout
+report_id: b6519351b2153a06865dec251e6e7d38
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:56:21+00:00'
+requested_by: 2lambda123
+provider: github
+branch: master
+detected_tools_count: 33
+tools:
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-core/sql/licensescout-h2.sql
+  detection_source: licensescout-core/sql/licensescout-h2.sql
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2019-11-03 21:02:46.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-core/pom.xml
+  detection_source: licensescout-core/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2019-12-22 16:32:16.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/.github/workflows/codeql-analysis.yml
+  detection_source: ".github/workflows/codeql-analysis.yml"
+  last_updated_by: Daniel Gomez-Sanchez
+  last_updated_on: 2021-01-07 14:26:38.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-core/pom.xml
+  detection_source: licensescout-core/pom.xml
+  last_updated_by: aposin-bot
+  last_updated_on: 2019-05-29 09:25:44.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Daniel Gomez-Sanchez
+  last_updated_on: 2019-05-29 14:25:03.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-core/pom.xml
+  detection_source: licensescout-core/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2019-12-22 16:32:16.000000000 Z
+- name: commons-beanutils:commons-beanutils
+  description: Apache Commons BeanUtils provides an easy-to-use but flexible wrapper
+    around reflection and introspection
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-maven-plugin/pom.xml
+  detection_source: licensescout-maven-plugin/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2019-12-09 18:35:13.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-core/pom.xml
+  detection_source: licensescout-core/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-03-29 03:18:31.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-core/pom.xml
+  detection_source: licensescout-core/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2019-12-19 18:23:25.000000000 Z
+- name: org.apache.commons:commons-collections4
+  description: The Apache Commons Collections package contains types that extend and
+    augment the Java Collections Framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-core/pom.xml
+  detection_source: licensescout-core/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-03-29 03:18:31.000000000 Z
+- name: org.apache.commons:commons-csv
+  description: The Apache Commons CSV library provides a simple interface for reading
+    and writing CSV files of various types
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-core/pom.xml
+  detection_source: licensescout-core/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-03-29 03:18:31.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-core/pom.xml
+  detection_source: licensescout-core/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-03-29 03:18:31.000000000 Z
+- name: org.apache.maven.doxia:doxia-core
+  description: Doxia core classes and interfaces
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-report-maven-plugin/pom.xml
+  detection_source: licensescout-report-maven-plugin/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.apache.maven.doxia:doxia-decoration-model
+  description: The Decoration Model handles the decoration descriptor for sites
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-report-maven-plugin/pom.xml
+  detection_source: licensescout-report-maven-plugin/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.apache.maven.doxia:doxia-sink-api
+  description: Doxia Sink API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-report-maven-plugin/pom.xml
+  detection_source: licensescout-report-maven-plugin/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.apache.maven.doxia:doxia-site-renderer
+  description: The Site Renderer handles the rendering of sites
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-report-maven-plugin/pom.xml
+  detection_source: licensescout-report-maven-plugin/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.apache.maven.plugin-tools:maven-plugin-annotations
+  description: Java 5 annotations to use in Mojos
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-maven-plugin/pom.xml
+  detection_source: licensescout-maven-plugin/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.apache.maven.reporting:maven-reporting-api
+  description: API to manage report generation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-report-maven-plugin/pom.xml
+  detection_source: licensescout-report-maven-plugin/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.apache.maven.reporting:maven-reporting-impl
+  description: Abstract classes to manage report generation
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-report-maven-plugin/pom.xml
+  detection_source: licensescout-report-maven-plugin/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.apache.maven:maven-core
+  description: Maven Core classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-maven-plugin/pom.xml
+  detection_source: licensescout-maven-plugin/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.apache.maven:maven-model
+  description: Model for Maven POM
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-maven-plugin/pom.xml
+  detection_source: licensescout-maven-plugin/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.apache.maven:maven-plugin-api
+  description: The API for plugins - Mojos - development
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-maven-plugin/pom.xml
+  detection_source: licensescout-maven-plugin/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.codehaus.plexus:plexus-utils
+  description: A collection of various utility classes to ease working with strings
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-maven-plugin/pom.xml
+  detection_source: licensescout-maven-plugin/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.dbunit:dbunit
+  description: DbUnit is a JUnit extension
+  license: LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-core/pom.xml
+  detection_source: licensescout-core/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-03-29 03:18:31.000000000 Z
+- name: org.eclipse.aether:aether-connector-basic
+  description: A repository connector implementation for repositories using URI-based
+    layouts
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-maven-utils/pom.xml
+  detection_source: licensescout-maven-utils/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.eclipse.aether:aether-transport-file
+  description: A transport implementation for repositories using file:// URLs
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-maven-utils/pom.xml
+  detection_source: licensescout-maven-utils/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.eclipse.aether:aether-transport-http
+  description: A transport implementation for repositories using http:// and https://
+    URLs
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-maven-utils/pom.xml
+  detection_source: licensescout-maven-utils/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.eclipse.aether:aether-transport-wagon
+  description: A transport implementation based on Maven Wagon
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-maven-utils/pom.xml
+  detection_source: licensescout-maven-utils/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-01-08 14:53:46.000000000 Z
+- name: org.json:json
+  description: JSON is a light-weight, language independent, data interchange format
+  license: JSON
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-core/pom.xml
+  detection_source: licensescout-core/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-03-29 03:18:31.000000000 Z
+- name: org.jsoup:jsoup
+  description: Jsoup is a Java library for working with real-world HTML
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/allianz-license-scout/blob/master/licensescout-core/pom.xml
+  detection_source: licensescout-core/pom.xml
+  last_updated_by: Matthias Pfisterer
+  last_updated_on: 2020-03-29 03:18:31.000000000 Z
