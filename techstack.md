@@ -3,12 +3,12 @@
 ## Tech Stack
 2lambda123/allianz-license-scout is built on the following main stack:
 
-- [Java](https://www.java.com) – Languages
 - [Groovy](https://groovy-lang.org/) – Languages
-- [JUnit](http://junit.org/) – Testing Frameworks
+- [Java](https://www.java.com) – Languages
 - [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
 - [H2 Database](http://www.h2database.com/) – Databases
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [JUnit](http://junit.org/) – Testing Frameworks
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
@@ -19,12 +19,12 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 2lambda123/allianz-license-scout is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png' alt='Groovy'/> [Groovy](https://groovy-lang.org/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/2020/874086.png' alt='JUnit'/> [JUnit](http://junit.org/) – Testing Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png' alt='SQL'/> [SQL](https://en.wikipedia.org/wiki/SQL) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/3105/h2-logo_square_400x400.png' alt='H2 Database'/> [H2 Database](http://www.h2database.com/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/2020/874086.png' alt='JUnit'/> [JUnit](http://junit.org/) – Testing Frameworks
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
@@ -36,7 +36,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/allianz-license-scout](https://github.com/2lambda123/allianz-license-scout)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|33<br/>Tools used|01/09/24 <br/>Report generated|
+|33<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
